@@ -4,4 +4,5 @@
 basit bir veri yapısı olarak kabul edilebilir. Belirli algoritmaların kullanılması ile veriler dizi, liste, yığıt, kuyruk, ağaç ve çizge 
 gibi veri modellerine dönüştürülerek düzenlenebilir.</p>
 
-# Bu repoda konuyla ilgili yazdigim kodlar bulunuyor.
+<p> Bu repoda konuyla ilgili yazdigim kodlar bulunuyor.
+Her bir eylemi (node ekleme, silme vb.) detaylıca yazdığım için eylemleri farklı projelere ayırdım.</p>
