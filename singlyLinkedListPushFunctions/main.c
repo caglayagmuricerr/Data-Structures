@@ -43,7 +43,6 @@ void pushBack(int new_data)
 	if(head == NULL)
 	{
 		head = new_node;
-		head->next = NULL;
 		return;
 	}
 
