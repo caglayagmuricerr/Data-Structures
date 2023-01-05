@@ -9,15 +9,21 @@ struct Node
 };
 
 // Head of the linked list
-struct Node* head = NULL;
+struct Node* head;
 
 // Function to add a new node at the beginning
 void pushFront(int new_data)
 {
 	// Allocate memory for a new node and store data
 	struct Node* new_node = (struct Node*)malloc(sizeof(struct Node));
+	// If the list is empty, make new_node as the head
 	new_node->data = new_data;
-
+	if(head == NULL)
+	{
+		head = new_node;
+		head->next = NULL;
+		return;
+	}
 	// Link the new node to the head
 	new_node->next = head;
 	head = new_node;
@@ -37,6 +43,7 @@ void pushBack(int new_data)
 	if(head == NULL)
 	{
 		head = new_node;
+		head->next = NULL;
 		return;
 	}
 
