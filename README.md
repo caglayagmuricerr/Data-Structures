@@ -1,8 +1,5 @@
-# Veri Yapilari
+# Data Structures
 
-<p> Veri yapıları, verilerin saklanması ve işlenmesi için farklı biçimlerde düzenlenmesini sağlayan yapıtaşlarıdır. Bir yazılım değişkeni, 
-basit bir veri yapısı olarak kabul edilebilir. Belirli algoritmaların kullanılması ile veriler dizi, liste, yığıt, kuyruk, ağaç ve çizge 
-gibi veri modellerine dönüştürülerek düzenlenebilir.</p>
+<p> Data structures are the building blocks that allow data to be organized in different ways for storing and processing. A software variable can be considered a simple data structure. By using certain algorithms, data can be organized by transforming them into data models such as array, list, stack, queue, tree and graph.</p>
 
-<p> Bu repoda konuyla ilgili yazdigim kodlar bulunuyor.
-Her bir eylemi (node ekleme, silme vb.) detaylıca yazdığım için eylemleri farklı projelere ayırdım.</p>
+<p> This repo contains the codes I wrote on the subject. Since I wrote down each action (adding, deleting nodes, etc.) in detail, I divided the actions into different projects.</p>
